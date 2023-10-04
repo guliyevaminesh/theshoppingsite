@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sectionfirst{
+width: 100%;
+height: 80px;
+display: flex;
+align-items: center;
+cursor: pointer;
+gap: 40px;
+justify-content: space-between;
+}
+.sectionfirst img{
+    width: 150px;
+    height: 50px;
+}
+
+.searchbutton input{
+    justify-content: center;
+    outline: none;
+    border: none;
+    width: 300px; 
+}
+.Favories{
+display: flex;
+align-items: center;
+gap: 15px;
+cursor: pointer;
+}
+.Favories div{
+    display: flex;
+    align-items: center;
+    gap: 5px; 
+    padding-right: 10px;
+}
+.sectionsecond{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border: bottom 10px;color: black; 
+}
+.sectionsecond ul{
+    display: flex;
+    align-items: start;
+    color: black;
+    gap: 30px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 15;
+}
+.sectionsecond ul span{
+    background-color: rgb(231, 77, 77);
+    color: white;
+    border-radius: 30%;
+    width: 80px;
+    height: 10px;
+    font-size: 14;
+}
+.brands{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+    gap: 20px;
+}
+.brands div{
+    padding: 15px;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+  border-color: rgb(184, 182, 182,0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items:center
+    justify-content: center;
+}
+.brandname{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.brandname ul{
+    display: flex;
+    align-items: center;
+    color: black;
+    gap: 80px;
+    cursor: pointer;
+    font-size: 15;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 13;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.products{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 50px;
+    cursor: pointer;
+}
+.products1{
+    width: 270px;
+    height: 50px;
+    border-radius: 5%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(0, 128, 0,0.10);
+    color: green;
+}
+.products2{
+    width: 270px;
+    height: 50px;
+    border-radius: 5%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+background-color: rgb(255, 165, 0,0.10);
+color:orangered;
+}
+.products3{
+    width: 270px;
+    height: 50px;
+    border-radius: 5%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+background-color:rgb(242, 133, 151,0.16);
+color: rgb(132, 24, 42);
+}
+.clothes{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 15px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.clothes1{
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    display: flex;
+    align-items: flex-end;
+    background-image: url("https://cdn.dsmcdn.com/ty1005/pimWidgetApi/mobile_20230930011104_Happiness02100910YENIBANNER.jpg");
+background-size: cover;
+}
+.clothes2{
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    display: flex;
+    align-items: flex-end;
+    background-image: url("https://cdn.dsmcdn.com/ty1006/pimWidgetApi/mobile_20230929120848_2331033KadinMobile202309291501.jpg");
+}
+.clothes3{
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    display: flex;
+    align-items: flex-end;
+    background-image: url("https://cdn.dsmcdn.com/ty999/pimWidgetApi/mobile_20230915143203_trwomanyenisezon150923mobile.jpg");
+}
